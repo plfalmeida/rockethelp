@@ -2,7 +2,7 @@ import { Box, Circle, HStack, Pressable, Text, useTheme, VStack, IPressableProps
 import { ClockAfternoon, Hourglass, CircleWavyCheck } from 'phosphor-react-native';
 
 
-export type OderProps = {
+export type OrderProps = {
 	id: string
 	patrimony: string
 	when: string
@@ -10,7 +10,7 @@ export type OderProps = {
 }
 
 type Props = IPressableProps & {
-	data: OderProps
+	data: OrderProps
 }
 
 export function Order({ data, ...rest }: Props) {
